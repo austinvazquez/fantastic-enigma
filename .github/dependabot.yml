@@ -7,4 +7,4 @@ updates:
       interval: "daily"
     ignore:
       - dependency-name: "docker/library/golang"
-        versions: ">1.21.*-alpine"
+        versions: ["1.22.*-alpine"]
