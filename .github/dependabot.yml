@@ -7,4 +7,4 @@ updates:
       interval: "daily"
     ignore:
       - dependency-name: "docker/library/golang"
-        versions: [">=1.22.x"]
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
